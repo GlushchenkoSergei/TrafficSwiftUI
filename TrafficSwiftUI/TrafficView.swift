@@ -22,7 +22,7 @@ struct TrafficView: View {
                 CircleUiView(color: .red, valueOpacity: red)
                 CircleUiView(color: .yellow, valueOpacity: yellow)
                 CircleUiView(color: .green, valueOpacity: green)
-                
+              
                 Spacer()
                 
                 Button(titleButton) {

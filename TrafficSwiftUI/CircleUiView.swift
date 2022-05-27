@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct CircleUiView: View {
-    var valueOpacity: Bool!
-    var color: Color!
+    let color: Color
+    let valueOpacity: Bool
     
     var body: some View {
         Circle()
@@ -18,10 +18,7 @@ struct CircleUiView: View {
             .overlay(Circle().stroke(Color.white, lineWidth: 2))
     }
     
-    init(color: Color, valueOpacity: Bool) {
-        self.color = color
-        self.valueOpacity = valueOpacity
-    }
+  
 }
 
 
